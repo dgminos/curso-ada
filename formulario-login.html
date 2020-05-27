@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi formulario de login</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                </nav>
+            </header>
+                <article>
+                    <section id="formulario">
+                        <h1>Login</h1>
+                        <div>
+                            <!-- Formulario de Login -->
+                            <style>
+                                input:valid { background-color: green; }
+                                input:invalid { background-color: red; }
+                            </style>
+                            <form id="login" action="formulario login.html" method="post">
+                            <label for="usuario">Usuario:</label>
+                                <input id="usuario" type="email" minleght="3" maxlenght="15" name="usuario">
+                                <br>
+                            <label for="password">Password:</label>
+                                <input id="password" type="password" minlength="3" maxlength="15" name="password">
+                                <br>
+                                <input type="submit" value="ingresar">
+                            </form>
+                        </div>
+                    </section>
+                </article>
+        </main>
+    </body>
+</html>
