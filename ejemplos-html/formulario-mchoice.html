@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi formulario de login</title>
+        <style> h3 {color:yellow;
+            background-color: grey;
+            font-size: 16px;
+            font-weight: 100;}</style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                </nav>
+            </header>
+                <article>
+                    <section id="formulario-preguntas">
+                            <h1 style="color:black; font-family: Verdana; background-color: yellow; width: fit-content;">Multiple choice</h1>
+                            <div>
+                            <!-- Formulario de Preguntas -->
+                            <form id="preguntas" action="formulario-gracias.html" method="post">
+                                <div style="background-color: purple;border-radius: 9px;padding: 10px;">
+                                    <h3>Genero:</h3>
+                                <br>
+                                <input name="genero" type="radio" value="femenino">
+                                <label>Femenino</label>
+                                <br>
+                                <input name="genero" type="radio" value="masculino">
+                                <label>Masculino</label>
+                            </div>
+                                <br>
+                                <div style="background-color: sienna; border-radius: 6px; padding: 5px;">
+                                    <h3>Educacion:</h3>
+                                    <label for="eduacion">Seleccione su educacion:</label>
+                                    <select name="educacion" id="educacion">
+                                    <option value="primaria">Primaria</option>
+                                    <option value="secundaria">Secundaria</option>
+                                    <option value="universitaria">Universitaria</option>
+                                    </select>
+                            </div>
+                                <br>
+                                        <div style="background-color: skyblue; border-radius: 6px; padding: 5px;">
+                                          <h3>Comentarios</h3>
+
+                                            <textarea name="comentarios" placeholder="escriba su comentario" cols="100" rows="10"></textarea>
+                                        </div>
+                                            <hr>             
+                            <input type="submit" value="Enviar">
+                            </form>
+                    </section>
+                </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+     h2 {
+            color: firebrick;
+            font-size: 16px;
+            font-weight: 100;
+            font-stretch: wider;
+            font-weight: 800;
+        }
+        .Email input:invalid {
+  border: 2px solid red;
+}
+.Email input:valid  {
+  content: '✓';
+  color: green;
+}
+
+
